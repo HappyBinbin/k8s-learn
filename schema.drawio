@@ -1,49 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2024-06-15T13:38:57.964Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="z-nutERhuirg9-sLPUvd" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-17T11:50:16.969Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="EJF8fl3L0l9uqxAARuC8" version="24.5.4" type="github">
   <diagram name="第 1 页" id="boPHWWFr9pnEfQ7hYIM2">
-    <mxGraphModel dx="2389" dy="810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1875" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KPFWhvh2tFq_cNsMSpEX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KPFWhvh2tFq_cNsMSpEX-1" target="KPFWhvh2tFq_cNsMSpEX-2">
+        <mxCell id="KPFWhvh2tFq_cNsMSpEX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KPFWhvh2tFq_cNsMSpEX-1" target="KPFWhvh2tFq_cNsMSpEX-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KPFWhvh2tFq_cNsMSpEX-1" value="cmd/kube-apiserver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KPFWhvh2tFq_cNsMSpEX-1" value="cmd/kube-apiserver" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="20" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KPFWhvh2tFq_cNsMSpEX-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KPFWhvh2tFq_cNsMSpEX-2" target="KPFWhvh2tFq_cNsMSpEX-17">
+        <mxCell id="KPFWhvh2tFq_cNsMSpEX-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KPFWhvh2tFq_cNsMSpEX-2" target="KPFWhvh2tFq_cNsMSpEX-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KPFWhvh2tFq_cNsMSpEX-2" value="func init(){&lt;div&gt;&amp;nbsp; &amp;nbsp; Install(legacyscheme.Scheme)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="KPFWhvh2tFq_cNsMSpEX-2" value="func init(){&lt;div&gt;&amp;nbsp; &amp;nbsp; Install(legacyscheme.Scheme)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="90" y="350" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KPFWhvh2tFq_cNsMSpEX-5" value="&lt;span class=&quot;hljs-keyword&quot;&gt;import&lt;/span&gt; (&lt;br&gt;    _ &lt;span class=&quot;hljs-string&quot;&gt;&quot;k8s.io/kubernetes/pkg/apis/apps/install&quot;&lt;/span&gt;&lt;br&gt;    _ &lt;span class=&quot;hljs-string&quot;&gt;&quot;k8s.io/kubernetes/pkg/apis/core/install&quot;&lt;/span&gt;&lt;br&gt;    _ &lt;span class=&quot;hljs-string&quot;&gt;&quot;k8s.io/kubernetes/pkg/apis/extensions/install&quot;&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;hljs-comment&quot;&gt;// 其他资源包...&lt;/span&gt;&lt;br&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="KPFWhvh2tFq_cNsMSpEX-5" value="&lt;span class=&quot;hljs-keyword&quot;&gt;import&lt;/span&gt; (&lt;br&gt;    _ &lt;span class=&quot;hljs-string&quot;&gt;&quot;k8s.io/kubernetes/pkg/apis/apps/install&quot;&lt;/span&gt;&lt;br&gt;    _ &lt;span class=&quot;hljs-string&quot;&gt;&quot;k8s.io/kubernetes/pkg/apis/core/install&quot;&lt;/span&gt;&lt;br&gt;    _ &lt;span class=&quot;hljs-string&quot;&gt;&quot;k8s.io/kubernetes/pkg/apis/extensions/install&quot;&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;hljs-comment&quot;&gt;// 其他资源包...&lt;/span&gt;&lt;br&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="65" y="180" width="270" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="KPFWhvh2tFq_cNsMSpEX-7" value="server.go" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KPFWhvh2tFq_cNsMSpEX-7" value="server.go" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="70" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KPFWhvh2tFq_cNsMSpEX-8" value="import_known_version.go" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KPFWhvh2tFq_cNsMSpEX-8" value="import_known_version.go" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="150" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KPFWhvh2tFq_cNsMSpEX-11" value="import&lt;br&gt;k8s.io/kubernetes/pkg/master" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KPFWhvh2tFq_cNsMSpEX-11" value="import&lt;br&gt;k8s.io/kubernetes/pkg/master" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="110" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KPFWhvh2tFq_cNsMSpEX-14" value="install.go" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KPFWhvh2tFq_cNsMSpEX-14" value="install.go" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="45" y="320" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KPFWhvh2tFq_cNsMSpEX-17" value="&lt;div&gt;// Install registers the API group and adds types to a scheme&lt;/div&gt;&lt;div&gt;func Install(scheme *runtime.Scheme) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; utilruntime.Must(apps.AddToScheme(scheme))&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; utilruntime.Must(v1beta1.AddToScheme(scheme))&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; utilruntime.Must(v1beta2.AddToScheme(scheme))&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; utilruntime.Must(v1.AddToScheme(scheme))&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; utilruntime.Must(scheme.SetVersionPriority(v1.SchemeGroupVersion, v1beta2.SchemeGroupVersion, v1beta1.SchemeGroupVersion))&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="KPFWhvh2tFq_cNsMSpEX-17" value="&lt;div&gt;// Install registers the API group and adds types to a scheme&lt;/div&gt;&lt;div&gt;func Install(scheme *runtime.Scheme) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; utilruntime.Must(apps.AddToScheme(scheme))&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; utilruntime.Must(v1beta1.AddToScheme(scheme))&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; utilruntime.Must(v1beta2.AddToScheme(scheme))&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; utilruntime.Must(v1.AddToScheme(scheme))&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; utilruntime.Must(scheme.SetVersionPriority(v1.SchemeGroupVersion, v1beta2.SchemeGroupVersion, v1beta1.SchemeGroupVersion))&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-10" y="425" width="420" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="KPFWhvh2tFq_cNsMSpEX-19" value="AddToScheme" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KPFWhvh2tFq_cNsMSpEX-19" value="AddToScheme" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="45" y="395" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KPFWhvh2tFq_cNsMSpEX-20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;apps.AddToScheme(scheme)&lt;/span&gt;&lt;div&gt;这样就通过AddKonwnTypes把对应的资源类型注册到scheme注册表中了&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KPFWhvh2tFq_cNsMSpEX-20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;apps.AddToScheme(scheme)&lt;/span&gt;&lt;div&gt;这样就通过AddKonwnTypes把对应的资源类型注册到scheme注册表中了&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="10" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KPFWhvh2tFq_cNsMSpEX-21" value="// Adds the list of known types to the given scheme.&#xa;func addKnownTypes(scheme *runtime.Scheme) error {&#xa;    // TODO this will get cleaned up with the scheme types are fixed&#xa;    scheme.AddKnownTypes(SchemeGroupVersion,&#xa;       &amp;DaemonSet{},&#xa;       &amp;DaemonSetList{},&#xa;       &amp;Deployment{},&#xa;       &amp;DeploymentList{},&#xa;       &amp;DeploymentRollback{},&#xa;       &amp;autoscaling.Scale{},&#xa;       &amp;StatefulSet{},&#xa;       &amp;StatefulSetList{},&#xa;       &amp;ControllerRevision{},&#xa;       &amp;ControllerRevisionList{},&#xa;       &amp;ReplicaSet{},&#xa;       &amp;ReplicaSetList{},&#xa;    )&#xa;    return nil&#xa;}" style="text;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="600" y="70" width="390" height="300" as="geometry" />
+        <mxCell id="KPFWhvh2tFq_cNsMSpEX-21" value="// Adds the list of known types to the given scheme.&#xa;func addKnownTypes(scheme *runtime.Scheme) error {&#xa;    // TODO this will get cleaned up with the scheme types are fixed&#xa;    scheme.AddKnownTypes(SchemeGroupVersion,&#xa;       &amp;DaemonSet{},&#xa;       &amp;StatefulSet{},&#xa;        ...&#xa;    )&#xa;    return nil&#xa;}" style="text;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="600" y="70" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6bK-LUDXVn6LZ8W286DL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KPFWhvh2tFq_cNsMSpEX-17" target="KPFWhvh2tFq_cNsMSpEX-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
